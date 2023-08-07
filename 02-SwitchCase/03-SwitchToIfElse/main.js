@@ -4,7 +4,7 @@ if (browser === "Edge") {
   browser === "Chrome" ||
   browser === "Firefox" ||
   browser === "Safari" ||
-  browser === Opera
+  browser === "Opera"
 ) {
   alert("Okay we support these browsers too");
 } else {

@@ -7,7 +7,7 @@
 // - ให้ใช้คำสั่ง alert เพื่อแสดงข้อความ “Welcome” ตามด้วยค่าในตัวแปร user
 
 let user = prompt("Enter username");
-console.log(user);
+
 if (user === "codecamp") {
   const password = prompt("Enter password");
   if (password === "123456") {
