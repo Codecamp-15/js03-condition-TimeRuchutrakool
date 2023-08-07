@@ -4,8 +4,13 @@
 // - ถ้า input น้อยกว่า 0 ให้โชว์ข้อความ “Negative number”
 // - ถ้า input ที่รับเข้ามาไม่ใช่ตัวเลข ให้โชว์ข้อความ “Invalid number”
 
-const number = +prompt("Number");
-if (number > 0) alert("Positive number");
-else if (number === 0) alert("Zero");
-else if (number < 0) alert("Negative number");
-else alert("Invalid number");
+const number = prompt("Number");
+if (num === null || num.trim() === "" || isNaN(num)) {
+  alert("Invalid Number");
+} else if (+num > 0) {
+  alert("Positive Number");
+} else if (+num == 0) {
+  alert("Zero");
+} else if (+num < 0) {
+  alert("Negative Number");
+}
