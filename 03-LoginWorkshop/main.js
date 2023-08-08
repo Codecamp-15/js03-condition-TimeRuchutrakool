@@ -12,13 +12,14 @@ if (user === "codecamp") {
   const password = prompt("Enter password");
   if (password === "123456") {
     user = "codecamp";
+    alert(`Welcome ${user}`);
   } else {
     alert("Wrong password");
   }
 } else if (user === "" || user === null) {
   user = "guest";
+  alert(`Welcome ${user}`);
 } else {
   user = "guest";
+  alert(`Welcome ${user}`);
 }
-
-alert(`Welcome ${user}`);

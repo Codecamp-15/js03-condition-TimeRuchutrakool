@@ -6,8 +6,8 @@
 // - ถ้าคะแนน น้อยกว่า 50 ได้ F
 
 const score = +prompt("score");
-
-if (score >= 80) alert("A");
+if (isNaN(score)) alert("Invalid Number");
+else if (score >= 80) alert("A");
 else if (score >= 70) alert("B");
 else if (score >= 60) alert("C");
 else if (score >= 50) alert("D");
